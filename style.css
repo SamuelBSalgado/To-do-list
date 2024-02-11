@@ -1,0 +1,160 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#UDClogo img{
+  width: 250px;
+  height: auto;
+  margin-left: 50px;;
+  align-items: center;
+}
+
+#opcionesHorizontal ul{
+  list-style: none;
+  display: flex;
+  color: rgb(119, 119, 119);
+}
+
+#opcionesHorizontal ul li {
+  display: inline-block;
+  padding-right: 25px;
+
+}
+
+#navSecundario ul {
+  list-style: none;
+}
+
+#navSecundario a {
+  color: rgb(119, 119, 119);
+}
+
+#navSecundario ol {
+  color: rgb(119, 119, 119);
+}
+
+#navSecundario h1 {
+  font-weight: normal;
+  color: rgb(119, 119, 119);
+}
+
+#navSecundario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgb(245, 248, 234);
+
+}
+
+#colorRelleno {
+  background-color: rgb(163, 191, 66);
+  height: 15px;
+}
+
+#navPrimario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#welcome_Name {
+  padding-right: 17px;
+}
+
+#welcome_Name ol {
+  list-style: none;
+  display: flex;
+}
+
+#welcome_Name ol li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.container_list {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.container_list input {
+  width: 200px;
+}
+
+.container_list img {
+  cursor: pointer;
+  width: 35px;
+  padding-left: 5px;
+}
+
+footer {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#showSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-right: 200px;
+}
+
+#showSection div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  background-color: lightblue;
+  width: calc(100% - 60%);
+  border-radius: 4px;
+  overflow-wrap: break-word;
+}
+
+#deleteAll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 200px;
+  margin-top: 20px;
+}
+
+#btn_deleteSelected {
+  margin-left: 10px;
+}
+
+.container_footer {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#address {
+  display: flex;
+  align-items: center;
+}
+
+#address img {
+  width: 20px;
+}
